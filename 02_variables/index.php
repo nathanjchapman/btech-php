@@ -1,13 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="utf-8">
     <title>Assignment 02 | Variables</title>
-    <style>
-        body {
-            font-family: monospace;
-            font-size: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="/styles/index.css">
 </head>
 <body>
     <h1>Assignment 02</h1>
