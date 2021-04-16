@@ -56,10 +56,47 @@
 
     <section>
         <h3>Part 3.</h3>
+        <table>
+            <tbody>
+            <?php
+                for ($i=1; $i < 8; $i++) {
+                    echo "<tr>";
+                    for ($j=1; $j < 8; $j++) {
+                        echo "<td>" . $j*$i . "</td>";
+                    }
+                    echo "</tr>";
+                }
+            ?>
+            </tbody>
+        </table>
+    </section>
+    <hr>
 
-        <?php
+    <section>
+        <h3>Part 4.</h3>
+        <table>
+            <thead>
+                <th colspan="12">Days in a Month</th>
+            </thead>
+            <tbody>
+            <?php
+                $months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+                $daysInMonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 
-        ?>
+                echo "<tr>";
+                foreach ($months as $key => $value) {
+                    echo "<td><b>" . $value . "</b></td>";
+                }
+                echo "</tr>";
+
+                echo "<tr>";
+                foreach ($daysInMonth as $key => $value) {
+                    echo "<td>" . $value . "</td>";
+                }
+                echo "</tr>";
+            ?>
+            </tbody>
+        </table>
     </section>
 </body>
 </html>
