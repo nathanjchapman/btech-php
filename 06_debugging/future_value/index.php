@@ -22,7 +22,7 @@
     <?php if (!empty($error_message)) { ?>
         <p class="error"><?php echo $error_message; ?></p>
     <?php } // end if ?>
-    <form action="./future_value/display_results.php" method="post">
+    <form action="./display_results.php" method="post">
         <p>
             <label>Investment Amount:</label>
             <input type="text" name="investment" value="<?php echo $investment; ?>">
