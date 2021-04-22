@@ -243,3 +243,6 @@ kbd {
 hr {
     border-bottom-color: #eee
 }
+.error {
+    color: red;
+}
