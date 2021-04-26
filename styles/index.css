@@ -246,3 +246,14 @@ hr {
 .error {
     color: red;
 }
+input[type=submit], button {
+    font-weight: 900;
+    padding: 0.5rem 1rem 0.2rem;
+    border: none;
+    background-color: #2C9EE9;
+    box-shadow: 0 3px 0 #267CB5;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 3.75rem;
+}
